@@ -45,8 +45,10 @@ public class Length {
 			System.out.println(myStr1.compareTo(myStr2));
 			if(length1 == length2) { 
 				System.out.println("The line lengths are equal");}
-			else {
-				System.out.println("The line lengths are not equal");}
+			else if (length1 > length2)
+				System.out.println("The line1 length is greater than line2 length");
+			else 
+				System.out.println("The line1 length is less than line2 length");
 		}
 	}
 	public static class LineLength {
